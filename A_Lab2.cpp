@@ -1,12 +1,9 @@
-﻿// A_Lab1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <complex>
 #include "Line.h"
 
 int main(){
-    /*Line<float> l1(5);
+    Line<float> l1(5);
     for (int i = 0; i < l1.size(); i++) {
         l1[i] = Point<float>(i+1, i+2);
     }
@@ -24,7 +21,7 @@ int main(){
     std::cout << "\n";
     std::cout << "Line1: " << l1.lenght() << "\n"
         << "Line2: " << l2.lenght() << "\n"
-        << "Line3: " << l3.lenght() << "\n";*/
+        << "Line3: " << l3.lenght() << "\n";
 
     return 0;
 }
